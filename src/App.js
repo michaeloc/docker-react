@@ -8,7 +8,7 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           {/* Edit <code>src/App.js</code> and save to reload. */}
-          Docker is nice! It's rock...I will get it. :). Now we teste a PR with feature branch.
+          Docker is nice! It's rock...I will get it. :). Now we teste a PR with feature branch. Teste again
         </p>
         <a
           className="App-link"
