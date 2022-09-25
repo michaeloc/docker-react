@@ -1,0 +1,12 @@
+sudo: requiered # superuser level permissions
+language: generic
+
+services:
+  - docker
+
+
+before_install:
+  - docker build -t michaeloc/docker-react -f Dockerfile.dev .
+
+script:
+  - docker run -e CI=true michaeloc/docker-react npm run test
